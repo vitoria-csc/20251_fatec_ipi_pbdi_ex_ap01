@@ -15,3 +15,8 @@ def menu():
         return calculadora.multiplicar(a,b)
     if num == 4:
         return calculadora.dividir(a,b)
+    
+resultado = menu()
+
+if resultado != None:
+    print("Resultado: ", resultado)
