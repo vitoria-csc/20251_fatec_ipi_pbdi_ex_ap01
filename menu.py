@@ -8,3 +8,5 @@ def menu():
         return calculadora.somar(a,b)
     if num == 2:
         return calculadora.subtrair(a,b)
+    if num == 3:
+        return calculadora.multiplicar(a,b)
