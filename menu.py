@@ -6,3 +6,5 @@ def menu():
     b = float(input('Qual é o segundo número desejado? '))
     if num == 1:
         return calculadora.somar(a,b)
+    if num == 2:
+        return calculadora.subtrair(a,b)
