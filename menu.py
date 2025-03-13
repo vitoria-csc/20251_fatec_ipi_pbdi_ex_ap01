@@ -10,3 +10,5 @@ def menu():
         return calculadora.subtrair(a,b)
     if num == 3:
         return calculadora.multiplicar(a,b)
+    if num == 4:
+        return calculadora.dividir(a,b)
